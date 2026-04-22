@@ -1,0 +1,27 @@
+name: masoud_pro
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # إضافة WebView لدعم كود HTML
+  webview_flutter: ^4.4.2
+  webview_flutter_android: ^3.12.0
+  webview_flutter_wkwebview: ^3.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # تحديد مسار ملف HTML ليتم ضمه مع التطبيق
+  assets:
+    - assets/index.html
